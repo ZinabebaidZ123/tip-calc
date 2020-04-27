@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+
+	<title>Tip Calculator</title>
+</head>
+<body>
+<!--container div-->
+  <div class="main">
+     <!--the div that contain tip cala-->
+  	 <div class="container">
+  	 	<!--title of tip calc-->
+  	 	<div><h2>TIP CALCULATOR</h2></div>
+  	 	<!--form-->
+  	 	<form id="tipForm">
+  	 	 <p>How much was your bill?</p>
+  	 	 <!--input for the bill-->
+  	 	  <label class="label1">$</label><input type="number" placeholder="" id="bill" autofocus="0">
+  	 	    <p>How was your service?</p>
+  	 	    <!--about quality of the service-->
+  	 	     <select id="serv-quality">
+  	 	     <option value="0.5">Terrible-5%</option>
+  	 	     <option value="0.1">Bad-10%</option>
+  	 	     <option value="0.15">Ok-15%</option>
+  	 	     <option value="0.2">Good-20%</option>
+  	 	     <option value="0.3">Outstanding-30%</option>
+  	 	     </select>
+
+  	 	       <p>How many people are sharing the bill?</p>
+  	 	         <input type="number" placeholder="" id="people-num" autofocus="0" >
+  	 	         <label class="label2">people</label>
+  	 	         <br>
+  	 	           <button id="calcBtn">CALCULATE</button>
+  	 	           <button id="resetBtn">RESET</button>
+  	 	         <!--total tip-->
+                <div id="result">
+                    
+                </div>
+                </form>
+  	 	         
+
+  	 </div>
+  </div>
+  <script src = "main.js"></script>
+
+</body>
+</html>

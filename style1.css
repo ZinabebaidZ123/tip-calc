@@ -1,0 +1,95 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:#B22222;
+}
+
+
+
+/*css for container div*/
+.container
+{
+	width: 400px;
+	height: 550px;
+	margin: auto;
+	background-color: #FFFAFA;
+	border-radius: 20px;
+	font-family: sans-serif;
+}
+.container div h2
+{
+	color: #eee;
+	background-color: #000;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+/*css for inputs */
+.container input[type="number"]
+{
+	width: 200px;
+	height: 20px;
+
+}
+.container #people-num
+{
+	margin-left: 30px;
+}
+.container .label1
+{
+	margin-left: 25px;
+}
+/*css for paragraphs */
+.container  p
+{
+   color: #696969;
+   margin: 15px;
+   font-size: 16px;
+   font-weight: bold;
+}
+/* css for the select box */
+.container select 
+{
+	width: 350px;
+	height: 45px;
+	background-color: #eee;
+	border-color: #696969;
+	color: #696969;
+	padding-left: 25px;
+	margin-left: 30px;
+	font-size:x-large;
+
+}
+/*css for the btn */
+.container button
+{
+	color: #fff;
+	background-color: #DC143C;
+	margin-left: 115px;
+	margin-top: 30px;
+	width: 170px;
+	height: 45px;
+	font-weight: bold;
+	cursor: pointer;
+
+
+}
+/*
+.container .totalTip 
+{
+
+	color: #696969;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+
+}*/
+/*css for the result div*/
+#result
+{
+   text-align: center;
+   font-family: sans-serif;
+   
+}
